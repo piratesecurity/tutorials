@@ -1,0 +1,28 @@
+python virtualenv is useful for isolating project source and dependency packages with others..
+
+#Commands
+
+create virtual environment with custom python interpreter
+
+$virtualenv -p /usr/local/bin/python3 venv
+
+
+to activate virtualenv 
+
+$source bin/activate
+
+
+install modules
+
+$pip install packagename
+
+
+and to deactivate 
+
+$deactivate
+
+
+
+and some advanced high level tool is virutalenvwrapper which works on top of virtualenv
+
+
